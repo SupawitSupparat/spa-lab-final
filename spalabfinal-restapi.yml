@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: spalabfinal-app
-        image: gcr.io/voltaic-mantra-195316/spalabfinal:latest
+        image: gcr.io/augmented-world-201715/spa-lab-final@sha256:162823d5b1742b10f2e055b31ce931d77d7f77e38a9f8c7b11b8baacbece98c6
         command: ["spa-lab-final"]
         imagePullPolicy: Always
         ports:
